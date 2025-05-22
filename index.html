@@ -1,14 +1,367 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <meta name="description" content="Découvre la majestueuse baleine bleue à travers une page poétique, immersive et accessible.">
+    <link rel="stylesheet" href="/src/styles/css/style.css">
     <title>La baleine bleu - un animal facinant</title>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1 class="main-title">La géante bleue qui chante l’océan</h1>
+            <figure class="header-img">
+                <img src="/assets/images/animal-159277_1280.png" alt="Illustration d'un baleine bleue">
+            </figure>
+        </div>
+    </header>
+
+    <section id="hero">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="/assets/videos/baleine-on-profil.mp4" type="video/mp4">
+            Ton navigateur ne prend pas en charge la vidéo HTML5.
+        </video>
+
+        <div class="container hero-content">
+            <h1>Plongez dans l’immensité et laissez-vous bercer par le chant des géants</h1>
+            <p>
+                Oubliez la surface, ici débute un voyage sous-marin…  
+                Entre bulles de rêve et vagues de curiosité,  
+                nous vous invitons à rencontrer la plus grande créature de notre planète.  
+                Paisible, majestueuse, fascinante : la baleine bleue vous ouvre les portes de son monde.
+            </p>
+        </div>
+    </section>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#presentation" class="active">La baleine bleue</a>  
+                </li>
+                <li>
+                    <a href="#sons">Son chant mystérieux</a>
+                </li>
+                <li>
+                    <a href="#baleinelife">Sa vie dans l’océan</a>
+                </li>
+                <li>
+                    <a href="#fact">Le saviez-vous&nbsp;?</a>
+                </li>
+                <li>
+                    <a href="#protection">Protéger les océans</a>
+                </li>
+                <li>
+                    <a href="#remerciement">Conclusion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 
+
+    <main>
+        <div class="container">
+            <section id="presentation" class="content-section">
+                <div class="text-part">
+                    <h1>Qui est la baleine bleue&nbsp;?</h1>
+                    <p>
+                        Immense, silencieuse et fascinante, la baleine bleue est la <strong>plus grande créature</strong> ayant jamais vécu sur Terre.
+                        Elle peut mesurer jusqu’à 30 mètres de long — soit la taille d’un avion — et peser plus de 150 tonnes.
+                        <br><br>
+                        Pourtant, malgré ses proportions impressionnantes, elle se déplace avec une grâce tranquille, 
+                        glissant dans l’eau comme un nuage dans le ciel.
+                    </p>
+                    <p>
+                        On la reconnaît à sa couleur bleu-gris, à ses longues nageoires pectorales, et à son souffle puissant visible à des kilomètres.
+                        Elle n’est pas une menace, mais une présence bienveillante dans les profondeurs de nos océans.
+                    </p>
+                </div>
+                <figure class="imagebox">
+                    <img src="/assets/images/whale-9071160_1280.png" alt="Illustration d'une baleine bleue nageant dans l'océan">
+                </figure>
+            </section>
+
+
+
+            <section id="sons">
+                <figure class="imagebox">
+                    <img src="/assets/images/humpback-79854_1280.jpg" alt="Illustration d'une baleine nageant en surface de la mer">
+                </figure>
+                <div class="text-part">
+                    <h1>
+                        Le chant des géants
+                        <i class="fa-solid fa-music"></i>
+                    </h1>
+                    <p>
+                        Sous les vagues, là où la lumière se fait rare, la baleine bleue chante.  
+                        Ses sons, graves et profonds, peuvent traverser plus de 800 kilomètres d’océan.
+                    </p>
+                    <p>
+                        Chaque chant est un message : une manière de trouver un compagnon, de naviguer dans l’immensité,  
+                        ou simplement de se faire entendre dans l’immense silence des profondeurs.
+                    </p>
+                    <p>
+                        Ces vocalises, trop basses pour l’oreille humaine, sont enregistrées par les chercheurs,  
+                        révélant un langage encore mystérieux, comme un poème acoustique écrit par les vagues.
+                    </p>
+                    <p>
+                        Entendre le chant d’une baleine bleue, c’est comme tendre l’oreille à une planète qui respire.  
+                        Un chant venu d’un autre monde, profond, lent, majestueux.
+                    </p>
+
+                    <article>
+                        <h2>Envie d’écouter le chant mystérieux de ces géants des profondeurs ?</h2>
+
+                        <button id="play-sound" aria-label="Activer le son de la baleine">
+                            Écouter le chant
+                            <i class="fa-solid fa-play"></i>
+                            <!-- <i class="fa-solid fa-pause"></i> -->
+                        </button>
+
+                         <audio id="whale-song">
+                            <source src="/assets/audio/684188__muri_kuri__whale-song.wav"" type="audio/mpeg">
+                            Votre navigateur ne prend pas en charge la lecture audio.
+                        </audio>
+                    </article>
+                </div>
+            </section>
+
+
+            <section id="baleinelife">
+                <h1>Un géant en mouvement</h1>
+                <video autoplay muted loop playsinline class="background-video">
+                    <source src="/assets/videos/baleine-on-face.mp4" type="video/mp4">
+                    Ton navigateur ne prend pas en charge la vidéo HTML5.
+                </video>
+
+                <div class="content">
+                    <figure class="imagebox">
+                        <img src="/assets/images/whale-7446905_1280.jpg" alt="Illustration d'une baleine bleue fesant des figures">
+                    </figure>
+
+                    <div class="text-part">
+                        <h2><h2>Comment vivent ces titans des mers ?</h2></h2>
+                        <p>
+                            La baleine bleue est une voyageuse. Chaque année, elle parcourt des milliers de kilomètres, 
+                            des eaux froides et riches en nourriture vers les mers chaudes où elle donne naissance à ses petits.
+                        </p>
+                        <p>
+                            Malgré sa taille colossale, elle se déplace avec une élégance surprenante. Elle glisse, elle ondule, 
+                            elle trace son chemin à travers les océans, portée par les courants et les saisons.
+                        </p>
+                        <p>
+                            Ses journées sont rythmées par la recherche de nourriture, les grandes plongées, et parfois, 
+                            de rares rencontres avec ses semblables. C’est une vie faite de solitude, de vastes silences et de longues traversées.
+                        </p>
+                        <p>
+                            Dans les profondeurs, chaque mouvement est lent, mesuré, presque chorégraphié. 
+                            C’est un ballet d’un autre temps, joué sans spectateurs, sauf ceux qui ont la chance de croiser son chemin.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="fact">
+                <h1>Le saviez-vous&nbsp;?</h1>
+
+                <div class="fact-grid">
+
+                    <article class="fact-card">
+                        <div>
+                            <i class="fa-solid fa-scale-balanced"></i>
+                            <h2>Le poids d’un troupeau</h2>
+                        </div>
+                        <p>
+                            Imaginez 25 éléphants alignés sur une plage… c’est à peu près le poids d’une seule baleine bleue adulte. 
+                            Ce géant peut dépasser les 150 tonnes — une masse colossale, et pourtant, il flotte et se déplace avec une grâce majestueuse.
+                        </p>
+                    </article>
+
+                    <article class="fact-card">
+                        <div>
+                            <i class="fa-solid fa-heart-pulse"></i>
+                            <h2>Un cœur gigantesque</h2>
+                        </div>
+                        <p>
+                             Son cœur peut peser jusqu’à 200 kilos, soit le poids de deux humains adultes. 
+                            Il bat lentement, puissamment, seulement 5 fois par minute, mais chaque pulsation résonne dans les profondeurs, 
+                            comme un tambour au rythme de l’océan.
+                        </p>
+                    </article>
+
+                    <article class="fact-card">
+                        <div>
+                            <i class="fa-solid fa-baby"></i>
+                            <h2>Un bébé colosse</h2>
+                        </div>
+                        <p>
+                            À sa naissance, un baleineau mesure déjà 7 mètres, comme un bus scolaire. Il pèse près de 3 tonnes 
+                            et boit jusqu’à 380 litres de lait maternel chaque jour — l’équivalent de 2 baignoires pleines ! 
+                            En grandissant, il prend environ 90 kilos… par jour.
+                        </p>
+                    </article>
+
+                    <article class="fact-card">
+                        <div>
+                            <i class="fa-solid fa-water"></i>
+                            <h2>Pas de dents, mais…</h2>
+                        </div>
+                        <p>
+                            Pas de dents chez la baleine bleue, mais des fanons : de longues plaques souples accrochées à sa mâchoire. 
+                            Elle s’en sert pour filtrer l’eau de mer et capturer des milliers de petites crevettes appelées krills. 
+                            Elle peut en avaler jusqu’à 4 tonnes chaque jour !
+                        </p>
+                    </article>
+            </section>
+
+            <section id="protection">
+                <div class="text-part">
+                    <h1>Protégeons la géante bleue</h1>
+                    <p>
+                        Longtemps chassée pour son huile et sa chair, la baleine bleue a frôlé l’extinction au XXe siècle. 
+                        Aujourd’hui encore, malgré l’interdiction de sa chasse, elle reste menacée par les activités humaines.
+                    </p>
+                    <p>
+                        Les collisions avec les navires, la pollution sonore des océans, le plastique et le réchauffement climatique 
+                        mettent en péril son fragile équilibre. Chaque jour, son territoire se réduit, et ses chants doivent 
+                        percer le vacarme du monde moderne.
+                    </p>
+                    <p>
+                        Mais il n’est pas trop tard. En protégeant les océans, en limitant notre impact sur l’environnement, 
+                        nous offrons à ces géants silencieux une chance de continuer à nager, chanter, vivre.
+                    </p>
+                    <p>
+                        Adopter des gestes simples, soutenir des associations marines, et parler de la baleine bleue, 
+                        c’est déjà commencer à la protéger. Car chaque voix compte, même la nôtre, sur cette planète bleue qu’elle partage avec nous.
+                    </p>
+                </div>
+
+               
+                <video autoplay muted loop playsinline controls class="background-video">
+                    <source src="/assets/videos/whaleandchild.mp4" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la vidéo HTML5.
+                </video>
+            </section>
+
+            <section id="conclusion" class="content-section">
+                <video autoplay muted loop playsinline controls class="background-video">
+                    <source src="/assets/videos/garcon_baleine_mer.mp4" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la vidéo HTML5.
+                </video>
+
+                <div class="text-part">
+                    <h1>Un monde à écouter, un monde à aimer</h1>
+                    <p>
+                        La baleine bleue ne parle pas notre langue, mais elle murmure des vérités anciennes.  
+                        Elle nous rappelle que l’océan est vivant, vaste, fragile — et que nous en faisons partie.
+                    </p>
+                    <p>
+                        Ce n’est pas juste un animal, c’est un symbole.  
+                        Un souffle dans l’eau, un chant dans l’invisible, une mémoire des profondeurs.
+                    </p>
+                    <p>
+                        En prenant soin d’elle, nous prenons soin de nous-mêmes.  
+                        Car ce que nous protégeons là-bas, au large, c’est aussi la beauté de ce monde que nous voulons laisser derrière nous.
+                    </p>
+                </div>
+                 
+            </section>
+
+
+
+            <aside id="information__components">
+                <header class="infohead">
+                    <div>
+                        <i class="fa-solid fa-info"></i>
+                    </div>
+                    <h2>Pourquoi j'aime tant les baleines bleues ?</h2>
+                </header>
+                <div class="text">
+                    <p>
+                        Il y a quelque chose de magique chez elles. Leur silence, leur taille, leur grâce…  
+                        Elles semblent venir d’un autre monde, un monde profond, paisible, presque oublié par les humains.
+                    </p>
+                    <p>
+                        Elles ne cherchent pas à dominer, ni à briller. Elles vivent simplement, lentement,  
+                        avec une force tranquille que j’admire profondément.
+                    </p>
+                    <p>
+                        Leur chant me touche. Il me rappelle que la nature est pleine de mystères,  
+                        de beautés discrètes qu’on ne remarque que si l’on prend le temps d’écouter.
+                    </p>
+                    <p>
+                        J’aime les baleines bleues parce qu’elles m’apaisent, m’inspirent et me rappellent  
+                        que nous faisons partie d’un monde bien plus vaste que nous.
+                    </p>
+                </div>
+            </aside>
+
+
+            
+            <section id="remerciement">
+                <div class="text-part">
+                    <h1>Merci d’avoir pris le temps d’écouter, de regarder, de ressentir. </h1>
+                
+                    <p>
+                        En découvrant le monde de la baleine bleue, vous avez plongé au cœur des océans, là où la vie palpite en silence.
+                    </p>
+                    <p>
+                        Mais ce voyage ne s’arrête pas là. Des abysses marins aux cimes des forêts, chaque être vivant a une histoire à raconter, une mélodie à partager.
+                    </p>
+                    <p>
+                        Préserver ces voix, c’est protéger une harmonie fragile — celle de la planète que nous partageons.
+                    </p>
+                    <p>
+                        Alors, que ce chant de géant résonne en vous comme un appel à l’émerveillement, à la curiosité, et au respect du vivant.
+                    </p>
+                    <p><strong>Merci de faire partie de ceux qui écoutent.</strong></p>
+                </div>
+
+                 <figure class="imagebox">
+                        <img src="/assets/images/pexels-jeffrey-eisen-1257101-9500914.jpg" alt="Illustration d'une baleine bleue plongeant dans les profondeurs">
+                </figure>
+
+            </section>
+
+
+
+        </div>
+    </main>
     
+
+
+    <footer id="site-footer">
+        <div class="container">
+
+            <p class="credit">
+                 &copy;2025 - Tout droit reservé | Réalisé avec amour par 
+                 <strong> <a href="https://nitiema-allassane-blog.vercel.app/src/pages/about.html">Nitiema Allassane</a></strong>
+            </p>
+
+            <div class="links">
+                <a href="https://github.com/NitiemaDev/whale-docs.git">
+                    <i class="fa-brands fa-github"></i>
+                    Github
+                </a>
+                <a href="https://www.linkedin.com/in/allassane-nitiema-400a5835a/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    LinkedIn
+                </a>
+                <!-- <a href="https://github.com/NitiemaDev/whale-docs.git">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    X-Twiter
+                </a> -->
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="/src/js/app.js"></script>
 </body>
 </html>
