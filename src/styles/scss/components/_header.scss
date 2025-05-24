@@ -1,10 +1,9 @@
 @use '../modules/variables' as *;
+@use '../modules/mixins' as *;
 
 header {
     .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex-layout(center, center);
         gap: $md-space;
     }
 
@@ -21,6 +20,22 @@ header {
         // font-family: 'Playwrite Danmark Loopet', sans-serif;
         font-style: italic;
         font-size: 2em;
+    }
+
+    @media screen and (max-width: 976px) {
+        .main-title {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .container {
+            flex-direction: column-reverse;
+            // align-items: start;
+        }
+
+        .container .header-img {
+            width: 40%;
+        }
     }
 
 }
